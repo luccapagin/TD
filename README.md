@@ -1,6 +1,6 @@
 # Técnicas de Controle de Overfitting em Algoritmos Neurais: Um Referencial Prático
 
-Este repositório contém o código e documentação do Trabalho de Conclusão de Curso (TCC) que investiga e implementa técnicas de controle de overfitting em redes neurais.
+Este repositório contém o código e documentação do Trabalho de Conclusão de Curso (TCC) do curso de Ciência da Computação da PUC Minas - Campus Poços de Caldas que investiga e implementa técnicas de controle de overfitting em redes neurais.
 
 ## Sobre o Projeto
 
@@ -25,7 +25,7 @@ O trabalho apresenta uma análise comparativa das diferentes técnicas de contro
 
 ## Autor
 
-Lucca Pagin
+Lucca Pagin Barbosa Rios
 
 ## Orientador
 
