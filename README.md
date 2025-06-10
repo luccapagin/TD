@@ -17,39 +17,8 @@ Este trabalho apresenta uma análise prática de diferentes técnicas utilizadas
 - `Código com Outputs.ipynb`: Notebook Jupyter contendo o código completo com todas as saídas e resultados
 - `Código sem Outputs.ipynb`: Versão limpa do notebook, sem as saídas de execução
 
-## Como Executar
-
-1. Clone este repositório
-2. Crie um ambiente virtual Python:
-   ```bash
-   python -m venv .venv
-   ```
-3. Ative o ambiente virtual:
-   - Windows:
-     ```bash
-     .venv\Scripts\activate
-     ```
-   - Linux/Mac:
-     ```bash
-     source .venv/bin/activate
-     ```
-4. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. Abra o notebook Jupyter:
-   ```bash
-   jupyter notebook
    ```
 
-## Dependências Principais
-
-- Python 3.x
-- TensorFlow/Keras
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
 
 ## Resultados
 
