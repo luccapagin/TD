@@ -100,13 +100,6 @@ O trabalho apresenta uma análise comparativa das diferentes técnicas de contro
 - Tabelas comparativas das métricas finais
 - Análise do impacto de cada técnica no overfitting
 
-## Solução de Problemas
-
-Se você encontrar problemas durante a execução:
-
-1. Verifique se todas as dependências estão instaladas corretamente
-2. Certifique-se de que está usando a versão correta do Python
-3. Em caso de erros de memória, reduza o tamanho do batch ou use uma GPU
 
 ## Autor
 
