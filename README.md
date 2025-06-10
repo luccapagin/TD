@@ -17,8 +17,7 @@ Este trabalho apresenta uma análise prática de diferentes técnicas utilizadas
 - `Código com Outputs.ipynb`: Notebook Jupyter contendo o código completo com todas as saídas e resultados
 - `Código sem Outputs.ipynb`: Versão limpa do notebook, sem as saídas de execução
 
-   ```
-
+ 
 
 ## Resultados
 
