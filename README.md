@@ -17,11 +17,96 @@ Este trabalho apresenta uma análise prática de diferentes técnicas utilizadas
 - `Código com Outputs.ipynb`: Notebook Jupyter contendo o código completo com todas as saídas e resultados
 - `Código sem Outputs.ipynb`: Versão limpa do notebook, sem as saídas de execução
 
- 
+## Instalação
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/luccapagin/TD.git
+cd TD
+```
+
+2. Crie e ative um ambiente virtual:
+```bash
+# Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+# Linux/Mac
+python -m venv .venv
+source .venv/bin/activate
+```
+
+3. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+## Dependências Principais
+
+- tensorflow==2.12.0
+- numpy==1.23.5
+- pandas==2.0.0
+- matplotlib==3.7.1
+- scikit-learn==1.2.2
+- jupyter==1.0.0
+- ipykernel==6.22.0
+
+## Como Reproduzir os Resultados
+
+1. Abra o notebook Jupyter:
+```bash
+jupyter notebook
+```
+
+2. Execute o notebook `Código sem Outputs.ipynb` na seguinte ordem:
+   - Importação das bibliotecas
+   - Carregamento e pré-processamento dos dados
+   - Implementação das técnicas de controle de overfitting
+   - Treinamento dos modelos
+   - Avaliação dos resultados
+
+3. Os resultados serão exibidos em gráficos e tabelas comparativas, mostrando a eficácia de cada técnica.
+
+## Estrutura do Código
+
+O notebook está organizado nas seguintes seções:
+
+1. **Configuração Inicial**
+   - Importação de bibliotecas
+   - Configuração de parâmetros
+
+2. **Preparação dos Dados**
+   - Carregamento do dataset
+   - Pré-processamento
+   - Divisão treino/teste
+
+3. **Implementação das Técnicas**
+   - Regularização L1/L2
+   - Dropout
+   - Early Stopping
+   - Data Augmentation
+   - Batch Normalization
+
+4. **Treinamento e Avaliação**
+   - Treinamento dos modelos
+   - Métricas de avaliação
+   - Visualização dos resultados
 
 ## Resultados
 
-O trabalho apresenta uma análise comparativa das diferentes técnicas de controle de overfitting, demonstrando sua eficácia através de experimentos práticos e métricas de avaliação.
+O trabalho apresenta uma análise comparativa das diferentes técnicas de controle de overfitting, demonstrando sua eficácia através de experimentos práticos e métricas de avaliação. Os resultados incluem:
+
+- Gráficos de acurácia e loss durante o treinamento
+- Tabelas comparativas das métricas finais
+- Análise do impacto de cada técnica no overfitting
+
+## Solução de Problemas
+
+Se você encontrar problemas durante a execução:
+
+1. Verifique se todas as dependências estão instaladas corretamente
+2. Certifique-se de que está usando a versão correta do Python
+3. Em caso de erros de memória, reduza o tamanho do batch ou use uma GPU
 
 ## Autor
 
