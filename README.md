@@ -27,3 +27,7 @@ O trabalho apresenta uma análise comparativa das diferentes técnicas de contro
 
 Lucca Pagin
 
+## Orientador
+
+Prof. Dr. Márcio Leandro Gonçalves
+
