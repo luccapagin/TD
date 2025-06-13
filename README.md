@@ -41,15 +41,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Dependências Principais
-
-- tensorflow==2.12.0
-- numpy==1.23.5
-- pandas==2.0.0
-- matplotlib==3.7.1
-- scikit-learn==1.2.2
-- jupyter==1.0.0
-- ipykernel==6.22.0
 
 ## Como Reproduzir os Resultados
 
